@@ -10,6 +10,13 @@ import {TurboNativeModulesAndroid, TurboNativeModulesIOS} from './\_turbo-native
 
 Your React Native application code may need to interact with native platform APIs that aren't provided by React Native or an existing library. You can write the integration code yourself using a **Turbo Native Module**. This guide will show you how to write one.
 
+:::info Migrating from Legacy Native Modules?
+If you have existing native modules built with the legacy architecture and want to migrate them to Turbo Modules, check out our migration guides:
+
+- [Android Native Modules Migration](/docs/migration/native-modules-migration-android)
+- [iOS Native Modules Migration](/docs/migration/native-modules-migration-ios)
+  :::
+
 The basic steps are:
 
 1. **define a typed JavaScript specification** using one of the most popular JavaScript type annotation languages: Flow or TypeScript;

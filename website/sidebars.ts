@@ -165,6 +165,29 @@ export default {
         ],
       },
     ],
+    'Migration Guides': [
+      'migration/migration-overview',
+      {
+        type: 'category',
+        label: 'Native Modules',
+        collapsible: true,
+        collapsed: false,
+        items: [
+          'migration/native-modules-migration-android',
+          'migration/native-modules-migration-ios',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Native Components',
+        collapsible: true,
+        collapsed: false,
+        items: [
+          'migration/native-components-migration-android',
+          'migration/native-components-migration-ios',
+        ],
+      },
+    ],
     'Legacy Architecture': [
       {
         type: 'category',

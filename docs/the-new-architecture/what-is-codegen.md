@@ -4,7 +4,11 @@
 
 React Native invokes **Codegen** automatically every time an iOS or Android app is built. Occasionally, you would like to manually run the **Codegen** scripts to know which types and files are actually generated: this is a common scenario when developing Turbo Native Modules and Fabric Native Components.
 
-<!-- TODO: Add links to TM and FC -->
+:::info Migrating to the New Architecture?
+If you're migrating existing native code to use Codegen with the new architecture, check out our migration guides:
+- **Native Modules:** [Android](/docs/migration/native-modules-migration-android) | [iOS](/docs/migration/native-modules-migration-ios)
+- **Native Components:** [Android](/docs/migration/native-components-migration-android) | [iOS](/docs/migration/native-components-migration-ios)
+:::
 
 ## How does Codegen works
 

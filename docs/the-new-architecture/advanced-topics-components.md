@@ -2,6 +2,12 @@
 
 This document contains a set of advanced topics to implement more complex functionalities of Native Components. It is recommended to first read the [Codegen](/docs/the-new-architecture/what-is-codegen) section and the guides on [Native Components](/docs/fabric-native-components-introduction).
 
+:::tip Migrating from Legacy Native Components?
+If you have existing native components built with the legacy architecture, check out our migration guides:
+- [Android Native Components Migration](/docs/migration/native-components-migration-android)
+- [iOS Native Components Migration](/docs/migration/native-components-migration-ios)
+:::
+
 This guide will cover the following topics:
 
 - [Direct Manipulation](/docs/the-new-architecture/direct-manipulation-new-architecture)

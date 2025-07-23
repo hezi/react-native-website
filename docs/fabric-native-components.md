@@ -12,6 +12,13 @@ import {FabricNativeComponentsAndroid,FabricNativeComponentsIOS} from './\_fabri
 
 If you want to build _new_ React Native Components that wrap around a [Host Component](https://reactnative.dev/architecture/glossary#host-view-tree-and-host-view) like a unique kind of [CheckBox](https://developer.android.com/reference/androidx/appcompat/widget/AppCompatCheckBox) on Android, or a [UIButton](https://developer.apple.com/documentation/uikit/uibutton?language=objc) on iOS, you should use a Fabric Native Component.
 
+:::info Migrating from Legacy Native Components?
+If you have existing native UI components built with the legacy architecture and want to migrate them to Fabric, check out our migration guides:
+
+- [Android Native Components Migration](/docs/migration/native-components-migration-android)
+- [iOS Native Components Migration](/docs/migration/native-components-migration-ios)
+  :::
+
 This guide will show you how to build Fabric Native Components, by implementing a web view component. The steps to doing this are:
 
 1. Define a JavaScript specification using Flow or TypeScript.

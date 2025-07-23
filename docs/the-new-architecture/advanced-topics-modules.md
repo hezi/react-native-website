@@ -2,6 +2,12 @@
 
 This document contains a set of advanced topics to implement more complex functionalities of Native Modules. It is recommended to first read the [Codegen](/docs/the-new-architecture/what-is-codegen) section and the guides on [Native Modules](/docs/turbo-native-modules-introduction).
 
+:::tip Migrating from Legacy Native Modules?
+If you have existing native modules built with the legacy architecture, check out our migration guides:
+- [Android Native Modules Migration](/docs/migration/native-modules-migration-android)
+- [iOS Native Modules Migration](/docs/migration/native-modules-migration-ios)
+:::
+
 This guide will cover the following topics:
 
 - [Add custom C++ types to your C++ modules](/docs/the-new-architecture/custom-cxx-types)

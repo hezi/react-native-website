@@ -24,6 +24,20 @@ These are our deprecated native module and component API. You can still use many
 
 :::
 
+## Migration Resources
+
+If you need to migrate existing native modules or components to the new architecture, check out our comprehensive migration guides:
+
+### Native Modules Migration
+
+- [Android Native Modules Migration](/docs/migration/native-modules-migration-android)
+- [iOS Native Modules Migration](/docs/migration/native-modules-migration-ios)
+
+### Native Components Migration
+
+- [Android Native Components Migration](/docs/migration/native-components-migration-android)
+- [iOS Native Components Migration](/docs/migration/native-components-migration-ios)
+
 1. Native Modules
    - [Android & iOS](turbo-native-modules.md)
    - [Cross-Platform with C++](the-new-architecture/pure-cxx-modules.md)

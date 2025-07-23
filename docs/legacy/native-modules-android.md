@@ -8,6 +8,10 @@ import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import con
 
 <NativeDeprecated />
 
+:::info Migrating to the New Architecture?
+If you're looking to migrate your native modules to the new architecture (Turbo Modules), check out our [Native Modules Migration Guide for Android](/docs/migration/native-modules-migration-android). It provides step-by-step instructions for migrating existing modules.
+:::
+
 Welcome to Native Modules for Android. Please start by reading the [Native Modules Intro](native-modules-intro) for an intro to what native modules are.
 
 ## Create a Calendar Native Module
